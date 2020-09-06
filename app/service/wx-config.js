@@ -2,7 +2,7 @@ module.exports = {
 
     //微信测试号
     appID: '',
-    appsecret: 'cdc586f6ccb7bd8fcb58bda7ead93736',
+    appsecret: '',
     token: '',
     scope: 'snsapi_userinfo',
     // localUrl: '/'
@@ -12,11 +12,11 @@ module.exports = {
     // clientUrl: 'https://wxh5.cnfpx.com'
 
     mp: {
-        appID: 'wx450b396755a432bb',
-        appsecret: '19cf3fba6558eebade66cf2380663376'
+        appID: '',
+        appsecret: ''
     },
     mch: {
-        mchID: '1512077821',
-        apisecret: 'qwertyuiopasdfghjklzxcvbnm123456'
+        mchID: '',
+        apisecret: ''
     }
 }
