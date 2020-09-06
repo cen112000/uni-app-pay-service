@@ -86,7 +86,7 @@ module.exports = {
         for (let i = 0; i < 5; i++) {
             text += possible.charAt(Math.floor(Math.random() * possible.length))
         }
-        return (type == 'wx' ? 'ImoocWxJuZi' : 'ImoocMpJuZi') + date + text;
+        return (type == 'wx' ? 'wxh5' : 'wxmp') + date + text;
     },
     // Object 转换成json并排序
     raw(args) {
