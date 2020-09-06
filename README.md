@@ -1,37 +1,4 @@
-# init
-
-
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
-
+## 微信支付后端代码说明
 ## 获取用户openid
 >获取用户openid 返回给前端
 > //根据code 获取openid 
@@ -104,4 +71,5 @@ let data = '<xml>' +
                    // 
                 }
             })
-```
+```![查询订单，可以看到订单已经支付完成](https://img-blog.csdnimg.cn/20200906203511596.png#pic_center)
+
